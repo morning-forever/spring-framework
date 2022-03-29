@@ -1,7 +1,9 @@
 buildscript {
 	repositories {
 		gradlePluginPortal()
+		mavenCentral()
 		maven { url "https://repo.spring.io/plugins-release" }
+		maven { url "http://maven.aliyun.com/nexus/content/repositories/central"}
 	}
 	dependencies {
 		classpath("io.spring.gradle:propdeps-plugin:0.0.9.RELEASE")
